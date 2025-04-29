@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -637,6 +666,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -2403,6 +2441,35 @@
       }
     },
     "net8.0-android34.0/android-arm": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -3038,6 +3105,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -4804,6 +4880,35 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -5439,6 +5544,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -7205,6 +7319,35 @@
       }
     },
     "net8.0-android34.0/android-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -7840,6 +7983,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -9606,6 +9758,35 @@
       }
     },
     "net8.0-android34.0/android-x86": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -10241,6 +10422,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -12007,6 +12197,35 @@
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -12642,6 +12861,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -14408,6 +14636,35 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -15043,6 +15300,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -16809,6 +17075,35 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -17444,6 +17739,15 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -19210,6 +19514,35 @@
       }
     },
     "net8.0-ios18.0": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -19786,10 +20119,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/android-arm": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -20366,10 +20737,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/android-arm64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -20946,10 +21355,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/android-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -21526,10 +21973,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/android-x86": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -22106,10 +22591,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/iossimulator-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -22686,10 +23209,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -23266,10 +23827,48 @@
           "ref/net6.0/System.Runtime.InteropServices.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
         }
       }
     },
     "net8.0-ios18.0/win10-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -23847,9 +24446,47 @@
             "related": ".xml"
           }
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -24517,9 +25154,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-arm": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -25104,9 +25779,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-arm64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -25691,9 +26404,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -26278,9 +27029,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/android-x86": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -26865,9 +27654,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/iossimulator-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -27449,9 +28276,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -28036,9 +28901,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-maccatalyst18.0/win10-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -28620,9 +29523,47 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -29481,9 +30422,47 @@
             "rid": "win"
           }
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -30213,9 +31192,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -30945,9 +31962,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -31677,9 +32732,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -32409,9 +33502,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -33138,9 +34269,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -33870,9 +35039,47 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
+      "AsyncAwaitBestPractices/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AsyncAwaitBestPractices.MVVM/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AsyncAwaitBestPractices": "9.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Maui/9.1.0": {
         "type": "package",
         "dependencies": {
@@ -34608,10 +35815,63 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ThunderDesign.Net-PCL.Threading/1.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "AsyncAwaitBestPractices/9.0.0": {
+      "sha512": "I6gUk7fZdu1h+BlgrZbgHUMv9OhXft5Df4ceH+NrOhNYKm0k3yoCjLoi7qpHqxgZq6grqaohEoQXdOHOtYgHiw==",
+      "type": "package",
+      "path": "asyncawaitbestpractices/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "asyncawaitbestpractices.9.0.0.nupkg.sha512",
+        "asyncawaitbestpractices.nuspec",
+        "lib/net8.0/AsyncAwaitBestPractices.dll",
+        "lib/net8.0/AsyncAwaitBestPractices.xml",
+        "lib/net9.0/AsyncAwaitBestPractices.dll",
+        "lib/net9.0/AsyncAwaitBestPractices.xml",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.dll",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.xml",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.dll",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.xml",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.dll",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.xml"
+      ]
+    },
+    "AsyncAwaitBestPractices.MVVM/9.0.0": {
+      "sha512": "rfr7RGH4KnNPHG3yIIMv77YrbOXU2j4Ea1O4GM6+v8Yrge4cpvn6cQn/YFBqUj7eABdNAh66onjajby+wnQpnw==",
+      "type": "package",
+      "path": "asyncawaitbestpractices.mvvm/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "asyncawaitbestpractices.mvvm.9.0.0.nupkg.sha512",
+        "asyncawaitbestpractices.mvvm.nuspec",
+        "lib/net8.0/AsyncAwaitBestPractices.MVVM.dll",
+        "lib/net8.0/AsyncAwaitBestPractices.MVVM.xml",
+        "lib/net9.0/AsyncAwaitBestPractices.MVVM.dll",
+        "lib/net9.0/AsyncAwaitBestPractices.MVVM.xml",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.MVVM.dll",
+        "lib/netstandard1.0/AsyncAwaitBestPractices.MVVM.xml",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.MVVM.dll",
+        "lib/netstandard2.0/AsyncAwaitBestPractices.MVVM.xml",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.MVVM.dll",
+        "lib/netstandard2.1/AsyncAwaitBestPractices.MVVM.xml"
+      ]
+    },
     "CommunityToolkit.Maui/9.1.0": {
       "sha512": "lIFWonOHrHSMLrU8Oc58cmA+oPCi5F/EmD4/Zqc2yryv8upH0tdaeU+SloG1zEFWjNlVeOT9wUfPk3qPMI0iOQ==",
       "type": "package",
@@ -37302,6 +38562,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ThunderDesign.Net-PCL.Threading/1.0.10": {
+      "sha512": "Zr0gaCrJGINhq3wFYRnUJSNVmmQIwguIl2jlu43ne76/Hj3ppxgk3xRr8YnaEtWe8HToX9godXk66WpbVm/BiA==",
+      "type": "package",
+      "path": "thunderdesign.net-pcl.threading/1.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/ThunderDesign.Net-PCL.Threading.dll",
+        "lib/netstandard1.0/ThunderDesign.Net-PCL.Threading.dll",
+        "lib/netstandard1.3/ThunderDesign.Net-PCL.Threading.dll",
+        "lib/netstandard2.0/ThunderDesign.Net-PCL.Threading.dll",
+        "thunderdesign.net-pcl.threading.1.0.10.nupkg.sha512",
+        "thunderdesign.net-pcl.threading.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -39342,6 +40618,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
+      "AsyncAwaitBestPractices.MVVM >= 9.0.0",
       "CommunityToolkit.Maui >= 9.1.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 8.0.8",
@@ -39350,9 +40627,11 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
-      "Syncfusion.Maui.Toolkit >= 1.0.2"
+      "Syncfusion.Maui.Toolkit >= 1.0.2",
+      "ThunderDesign.Net-PCL.Threading >= 1.0.10"
     ],
     "net8.0-ios18.0": [
+      "AsyncAwaitBestPractices.MVVM >= 9.0.0",
       "CommunityToolkit.Maui >= 9.1.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 8.0.8",
@@ -39361,9 +40640,11 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
-      "Syncfusion.Maui.Toolkit >= 1.0.2"
+      "Syncfusion.Maui.Toolkit >= 1.0.2",
+      "ThunderDesign.Net-PCL.Threading >= 1.0.10"
     ],
     "net8.0-maccatalyst18.0": [
+      "AsyncAwaitBestPractices.MVVM >= 9.0.0",
       "CommunityToolkit.Maui >= 9.1.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 8.0.8",
@@ -39372,9 +40653,11 @@
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "Microsoft.NET.ILLink.Tasks >= 8.0.15",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
-      "Syncfusion.Maui.Toolkit >= 1.0.2"
+      "Syncfusion.Maui.Toolkit >= 1.0.2",
+      "ThunderDesign.Net-PCL.Threading >= 1.0.10"
     ],
     "net8.0-windows10.0.19041": [
+      "AsyncAwaitBestPractices.MVVM >= 9.0.0",
       "CommunityToolkit.Maui >= 9.1.0",
       "CommunityToolkit.Mvvm >= 8.3.2",
       "Microsoft.Data.Sqlite.Core >= 8.0.8",
@@ -39382,7 +40665,8 @@
       "Microsoft.Maui.Controls >= 8.0.100",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.100",
       "SQLitePCLRaw.bundle_green >= 2.1.10",
-      "Syncfusion.Maui.Toolkit >= 1.0.2"
+      "Syncfusion.Maui.Toolkit >= 1.0.2",
+      "ThunderDesign.Net-PCL.Threading >= 1.0.10"
     ]
   },
   "packageFolders": {
@@ -39451,6 +40735,10 @@
       "net8.0-android34.0": {
         "targetAlias": "net8.0-android",
         "dependencies": {
+          "AsyncAwaitBestPractices.MVVM": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.0, )"
@@ -39488,6 +40776,10 @@
           "Syncfusion.Maui.Toolkit": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "ThunderDesign.Net-PCL.Threading": {
+            "target": "Package",
+            "version": "[1.0.10, )"
           }
         },
         "imports": [
@@ -39514,6 +40806,10 @@
       "net8.0-ios18.0": {
         "targetAlias": "net8.0-ios",
         "dependencies": {
+          "AsyncAwaitBestPractices.MVVM": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.0, )"
@@ -39551,6 +40847,10 @@
           "Syncfusion.Maui.Toolkit": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "ThunderDesign.Net-PCL.Threading": {
+            "target": "Package",
+            "version": "[1.0.10, )"
           }
         },
         "imports": [
@@ -39577,6 +40877,10 @@
       "net8.0-maccatalyst18.0": {
         "targetAlias": "net8.0-maccatalyst",
         "dependencies": {
+          "AsyncAwaitBestPractices.MVVM": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.0, )"
@@ -39614,6 +40918,10 @@
           "Syncfusion.Maui.Toolkit": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "ThunderDesign.Net-PCL.Threading": {
+            "target": "Package",
+            "version": "[1.0.10, )"
           }
         },
         "imports": [
@@ -39641,6 +40949,10 @@
       "net8.0-windows10.0.19041": {
         "targetAlias": "net8.0-windows10.0.19041.0",
         "dependencies": {
+          "AsyncAwaitBestPractices.MVVM": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[9.1.0, )"
@@ -39672,6 +40984,10 @@
           "Syncfusion.Maui.Toolkit": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "ThunderDesign.Net-PCL.Threading": {
+            "target": "Package",
+            "version": "[1.0.10, )"
           }
         },
         "imports": [

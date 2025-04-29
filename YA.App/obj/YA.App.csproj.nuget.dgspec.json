@@ -66,6 +66,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "AsyncAwaitBestPractices.MVVM": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -103,6 +107,10 @@
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "ThunderDesign.Net-PCL.Threading": {
+              "target": "Package",
+              "version": "[1.0.10, )"
             }
           },
           "imports": [
@@ -129,6 +137,10 @@
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "AsyncAwaitBestPractices.MVVM": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -166,6 +178,10 @@
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "ThunderDesign.Net-PCL.Threading": {
+              "target": "Package",
+              "version": "[1.0.10, )"
             }
           },
           "imports": [
@@ -192,6 +208,10 @@
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "AsyncAwaitBestPractices.MVVM": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -229,6 +249,10 @@
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "ThunderDesign.Net-PCL.Threading": {
+              "target": "Package",
+              "version": "[1.0.10, )"
             }
           },
           "imports": [
@@ -256,6 +280,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "AsyncAwaitBestPractices.MVVM": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -287,6 +315,10 @@
             "Syncfusion.Maui.Toolkit": {
               "target": "Package",
               "version": "[1.0.2, )"
+            },
+            "ThunderDesign.Net-PCL.Threading": {
+              "target": "Package",
+              "version": "[1.0.10, )"
             }
           },
           "imports": [
