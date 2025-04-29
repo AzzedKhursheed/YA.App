@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qoieBfTeUhQ=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\azzed\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net9.0-android"
+    }
+  ]
+}
