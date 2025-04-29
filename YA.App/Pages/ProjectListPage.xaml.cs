@@ -2,9 +2,8 @@ namespace YA.App.Pages
 {
     public partial class ProjectListPage : ContentPage
     {
-        public ProjectListPage(ProjectListPageModel model)
+        public ProjectListPage()
         {
-            BindingContext = model;
             InitializeComponent();
         }
     }

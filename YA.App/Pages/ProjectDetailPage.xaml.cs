@@ -4,11 +4,9 @@ namespace YA.App.Pages
 {
     public partial class ProjectDetailPage : ContentPage
     {
-        public ProjectDetailPage(ProjectDetailPageModel model)
+        public ProjectDetailPage()
         {
             InitializeComponent();
-
-            BindingContext = model;
         }
     }
 

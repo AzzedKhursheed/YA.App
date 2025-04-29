@@ -2,10 +2,9 @@ namespace YA.App.Pages
 {
     public partial class ManageMetaPage : ContentPage
     {
-        public ManageMetaPage(ManageMetaPageModel model)
+        public ManageMetaPage()
         {
             InitializeComponent();
-            BindingContext = model;
         }
     }
 }
