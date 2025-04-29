@@ -1,0 +1,21 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# Android / iOS
+*.apk
+*.aab
+*.keystore
+
+# Mac/iOS builds
+build/
+*.xcarchive
+
+# Others
+*.db
+*.log
