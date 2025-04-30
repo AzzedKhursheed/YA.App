@@ -2,6 +2,28 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using YA.App.Models;
 
+//The MainPageModel in your project is essentially functioning as a ViewModel, but it goes beyond the typical responsibilities of a ViewModel in some ways.
+//Here's the breakdown:
+//
+//Why MainPageModel is a ViewModel:
+//  1.  Data Binding: It uses[ObservableProperty] attributes(from the CommunityToolkit.Mvvm package) to expose properties like TodoCategoryData,
+//      Projects, and Tasks for data binding to the UI.
+//  2.	Commands: It defines commands (e.g., RefreshCommand, AddTaskCommand) to handle user interactions, which is a core responsibility of a
+//      ViewModel.
+//  3.	State Management: It manages UI state properties like IsBusy and IsRefreshing to control loading indicators and refresh states.
+//  4.	Data Loading: It fetches data from repositories (ProjectRepository, TaskRepository, etc.) and prepares it for display in the UI.
+//
+//What MainPageModel is doing that a typical ViewModel might not:
+//  1.  Navigation Logic: It directly handles navigation(e.g., NavigateToProject, NavigateToTask) using Shell.Current.GoToAsync.
+//      While navigation can be part of a ViewModel, it's often delegated to a separate service in larger applications to keep
+//      the ViewModel focused on UI logic.
+//  2.	Error Handling: It uses a ModalErrorHandler to handle exceptions, which might be better suited for a dedicated error-handling
+//      service.
+//  3.	Seeding Data: It initializes seed data using SeedDataService, which is more of a backend or service-layer responsibility.
+//  4.	Complex Data Aggregation: It performs significant data aggregation and transformation (e.g., building CategoryChartData
+//      and TodoCategoryColors), which might be better handled in a service or helper class to keep the ViewModel lightweight.
+
+
 namespace YA.App.PageModels
 {
     public partial class MainPageModel : ObservableObject, IProjectTaskPageModel
