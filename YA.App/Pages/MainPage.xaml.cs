@@ -1,5 +1,4 @@
 ﻿using YA.App.Models;
-using YA.App.PageModels;
 using YA.App.ViewModels;
 
 namespace YA.App.Pages
