@@ -10,7 +10,6 @@ namespace YA.App
         {
             InitializeComponent();
             var currentTheme = Application.Current!.UserAppTheme;
-            ThemeSegmentedControl.SelectedIndex = currentTheme == AppTheme.Light ? 0 : 1;
         }
         public static async Task DisplaySnackbarAsync(string message)
         {
