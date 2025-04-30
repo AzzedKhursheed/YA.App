@@ -10,6 +10,7 @@
              x:Class="YA.App.Pages.MainPage"
              x:DataType="ViewModels:MainPageViewModel">
     <CollectionView ItemsSource="{Binding Tiles}"
+                    EmptyView="No tiles available"
                     ItemsLayout="Grid, 2"
                     Margin="20"
                     SelectionMode="None">
