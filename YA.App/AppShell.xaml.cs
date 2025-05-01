@@ -10,6 +10,8 @@ namespace YA.App
         {
             InitializeComponent();
             var currentTheme = Application.Current!.UserAppTheme;
+            Routing.RegisterRoute(nameof(YusufHomePage), typeof(YusufHomePage));
+
         }
         public static async Task DisplaySnackbarAsync(string message)
         {

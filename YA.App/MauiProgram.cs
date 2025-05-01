@@ -55,6 +55,9 @@ namespace YA.App
             // Register the MainPage and its ViewModel using a helper extension method.
             // This tells Shell to use DI to create the page and ViewModel when navigating to "MainPage".
             builder.Services.AddTransientWithShellRoute<MainPage, MainPageViewModel>("MainPage");
+            builder.Services.AddTransient<YusufHomePageViewModel>();
+            builder.Services.AddTransient<YusufHomePage>();
+
 
             // Build and return the completed MAUI app
             return builder.Build();

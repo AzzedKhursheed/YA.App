@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AsyncAwaitBestPractices.MVVM;
+using Microsoft.Maui.Controls;
 using ThunderDesign.Net.Threading.Collections;
 using ThunderDesign.Net.Threading.Extentions;
 using YA.App.Models;
@@ -27,8 +28,10 @@ namespace YA.App.ViewModels
                 {
                     Icon = "dotnet_bot.png",
                     Title = "Yusuf's Page",
-                    Command = new AsyncCommand(async () => await NavigateAsync("You tapped Settings"))
+                    Command = new AsyncCommand(async () => await Shell.Current.GoToAsync(nameof(YusufHomePage))
+   )
                 },
+
                 new TileModel
                 {
                     Icon = "dotnet_bot.png",

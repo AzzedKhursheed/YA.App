@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:YA.App.ViewModels"
+             x:Class="YA.App.Pages.YusufHomePage"
+             Title="YusufHomePage">
+
+    <ContentPage.BindingContext>
+        <vm:YusufHomePageViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="10">
+        <CollectionView ItemsSource="{Binding Bio}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Spacing="10" Padding="10" BackgroundColor="LightGray" Margin="5">
+                        <Image Source="{Binding ProfilePicture}" HeightRequest="100" WidthRequest="100" />
+                        <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="{Binding Age}" FontSize="16" />
+                        <Label Text="{Binding Bio}" FontSize="14" />
+                        <Button Text="Edit" Command="{Binding EditCommand}" />
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

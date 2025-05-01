@@ -76,5 +76,11 @@
 		<PackageReference Include="Syncfusion.Maui.Toolkit" Version="1.0.2" />
 		<PackageReference Include="ThunderDesign.Net-PCL.Threading" Version="1.0.10" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Pages\YusufHomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </None>
+	</ItemGroup>
 	
 </Project>
