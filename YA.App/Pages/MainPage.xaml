@@ -19,7 +19,8 @@
                        CornerRadius="12"
                        BackgroundColor="Blue"
                        HasShadow="True">
-                    <Grid>
+                    <StackLayout>
+                        <Label Text="{Binding Title}"/>
                         <Image Source="{Binding Icon}"
                                HeightRequest="60"
                                WidthRequest="60"
@@ -29,7 +30,7 @@
                                 <TapGestureRecognizer Command="{Binding Command}" />
                             </Image.GestureRecognizers>
                         </Image>
-                    </Grid>
+                    </StackLayout>
                 </Frame>
             </DataTemplate>
         </CollectionView.ItemTemplate>

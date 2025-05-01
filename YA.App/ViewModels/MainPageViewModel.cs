@@ -17,23 +17,34 @@ namespace YA.App.ViewModels
         {
             Tiles = new ObservableCollectionThreadSafe<TileModel>
             {
-                new TileModel { Icon = "dotnet_bot.png", Title = "Page", Command = new AsyncCommand(async () => await SomePageNavigationAsync().ConfigureAwait(false)) },
-            new TileModel
+                new TileModel 
+                { 
+                    Icon = "dotnet_bot.png", 
+                    Title = "Azzed's Page", 
+                    Command = new AsyncCommand(async () => await SomePageNavigationAsync().ConfigureAwait(false)) 
+                },
+                new TileModel
                 {
                     Icon = "dotnet_bot.png",
-                    Title = "Settings",
+                    Title = "Yusuf's Page",
                     Command = new AsyncCommand(async () => await NavigateAsync("You tapped Settings"))
                 },
                 new TileModel
                 {
                     Icon = "dotnet_bot.png",
-                    Title = "Profile",
+                    Title = "Huzaifa's Page",
                     Command = new AsyncCommand(async () => await NavigateAsync("You tapped Profile"))
                 },
                 new TileModel
                 {
                     Icon = "dotnet_bot.png",
-                    Title = "Help",
+                    Title = "Musa's Page",
+                    Command = new AsyncCommand(async () => await NavigateAsync("You tapped Help"))
+                },
+                new TileModel
+                {
+                    Icon = "dotnet_bot.png",
+                    Title = "Yamna's Page",
                     Command = new AsyncCommand(async () => await NavigateAsync("You tapped Help"))
                 }
             };
@@ -46,7 +57,7 @@ namespace YA.App.ViewModels
             //Do nothing
         }
 
-        private async Task NavigateAsync(string message)
+        private async Task NavigateAsync(string message)    
         {
             await AppShell.DisplayToastAsync(message);
         }
