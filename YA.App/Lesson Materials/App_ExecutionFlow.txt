@@ -1,0 +1,102 @@
+﻿┌──────────────────────────────────────────────────────────────────────────────────────────────┐
+│                            Platform-Specific Entry Point                                     │
+│  (e.g., MainActivity.cs for Android, AppDelegate.cs for iOS, App.xaml.cs for Windows/macOS)  │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────────────┐
+                           │      MauiProgram.cs          │
+                           │  (ConfigureServices, DI,     │
+                           │   Fonts, Toolkits, Logging)  │
+                           └──────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────────────┐
+                           │      App.xaml.cs             │
+                           │  (InitializeComponent,       │
+                           │   CreateWindow)              │
+                           └──────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────────────┐
+                           │      AppShell.xaml           │
+                           │  (Defines Navigation,        │
+                           │   Routes, Flyouts, Tabs)     │
+                           └──────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────────────┐
+                           │      MainPage.xaml           │
+                           │  (Initial Content Page)      │
+                           └──────────────────────────────┘
+                                      │
+                                      ▼
+                           ┌──────────────────────────────┐
+                           │      MainPageViewModel       │
+                           │  (Handles Data Binding,      │
+                           │   Commands, Business Logic)  │
+                           └──────────────────────────────┘
+
+
+                           Chatgpt's explanation of the chart
+┌────────────────────────────────────────────────────────────────────────┐
+│    MauiProgram.cs (CreateMauiApp)                                      │
+│       ↓                                                                │
+│    App.xaml.cs (App(), CreateWindow)                                   │
+│       ↓                                                                │
+│    AppShell.xaml / AppShell.xaml.cs (UI navigation structure)          │
+│       ↓                                                                │
+│    MainPage.xaml / MainPage.xaml.cs (initial content                   │                          
+│       ↓                                                                │
+│    MainPageViewModel (if using MVVM with DI)                           │    
+└────────────────────────────────────────────────────────────────────────┘
+
+
+✅ 1. MauiProgram.cs
+Purpose: Configures and builds the app.
+
+What happens:
+
+CreateMauiApp() is called by the framework.
+
+You register services (Dependency Injection), configure fonts, toolkits, logging, etc.
+
+Returns a MauiApp instance that defines how your app behaves.
+
+✅ 2. App.xaml.cs
+Purpose: Initializes the main application class.
+
+What happens:
+
+App() constructor is called.
+
+InitializeComponent() loads App.xaml resources.
+
+Then, CreateWindow() is called, which returns the first Window of the app.
+
+✅ 3. AppShell.xaml / AppShell.xaml.cs (if using Shell)
+Purpose: Defines navigation and layout.
+
+What happens:
+
+The AppShell (or your custom layout page) is loaded into the window.
+
+If you're using Shell routing, this is where page navigation structure is registered (tabs, flyouts, routes).
+
+✅ 4. The Initial Page (like MainPage)
+Purpose: This is the first content page the user sees.
+
+What happens:
+
+Based on the Shell route or manual navigation, the target page is instantiated.
+
+If using DI correctly, its constructor is called with the required ViewModel (e.g., MainPage(MainPageViewModel vm)).
+
+The UI elements are initialized and bound to the ViewModel.
+
+✅ Optional: ViewModel Initialization
+Purpose: Prepare data for the view.
+
+What happens:
+
+If you're following MVVM, your ViewModel may have logic to load data (e.g., in its constructor or an InitializeAsync method).
