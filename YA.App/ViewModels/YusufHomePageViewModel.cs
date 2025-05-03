@@ -3,7 +3,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AsyncAwaitBestPractices.MVVM;
-using ThunderDesign.Net.Threading.Collections;
 using ThunderDesign.Net.Threading.Extentions;
 using YA.App.Models;
 using BindableObject = ThunderDesign.Net.Threading.Objects.BindableObject;
@@ -15,25 +14,18 @@ namespace YA.App.ViewModels
         #region constructor
         public YusufHomePageViewModel()
         {
-            Bio = new ObservableCollectionThreadSafe<BioModel>
+            Bio = new BioModel
             {
-                new BioModel
-                {
-                    Name = "Yusuf",
-                    Age = 26,
-                    Bio = "I am a software engineer with a passion for coding and technology.",
-                    ProfilePicture = "dotnet_bot.png",
-                    EditCommand = new AsyncCommand(async () => await NavigateAsync("You tapped Edit"))
-                    },
+                Name = "Yusuf",
+                Age = 26,
+                Bio = "To be, or not to be: that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: 'tis a consummation Devoutly to be wish'd. To die, to sleep; To sleep, perchance to dream—ay, there's the rub: For in that sleep of death what dreams may come When we have shuffled off this mortal coil, Must give us pause—there's the respect That makes calamity of so long life.",
+                ProfilePicture = "dotnet_bot.png",
+                EditCommand = new AsyncCommand(async () => await NavigateAsync("You tapped Edit"))
             };
         }
         #endregion
 
         #region methods
-        private async Task SomePageNavigationAsync()
-        {
-            //Do nothing
-        }
 
         private async Task NavigateAsync(string message)
         {
@@ -42,15 +34,19 @@ namespace YA.App.ViewModels
         #endregion
 
         #region properties
-        public ObservableCollectionThreadSafe<BioModel> Bio
-        {
-            get { return this.GetProperty(ref _Bio_Ref); }
-            set { this.SetProperty(ref _Bio_Ref, value); }
-        }
+        //public ObservableCollectionThreadSafe<BioModel> Bio
+        //{
+        //    get { return this.GetProperty(ref _Bio_Ref); }
+        //    set { this.SetProperty(ref _Bio_Ref, value); }
+        //}
+
+        public BioModel Bio { get; set; }
+
+
         #endregion
 
         #region variables
-        private ObservableCollectionThreadSafe<BioModel> _Bio_Ref;
+        //private ObservableCollectionThreadSafe<BioModel> _Bio_Ref;
         #endregion
     }
 }

@@ -9,19 +9,37 @@
         <vm:YusufHomePageViewModel />
     </ContentPage.BindingContext>
 
-    <VerticalStackLayout Padding="10">
-        <CollectionView ItemsSource="{Binding Bio}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <VerticalStackLayout Spacing="10" Padding="10" BackgroundColor="LightGray" Margin="5">
-                        <Image Source="{Binding ProfilePicture}" HeightRequest="100" WidthRequest="100" />
-                        <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" />
-                        <Label Text="{Binding Age}" FontSize="16" />
-                        <Label Text="{Binding Bio}" FontSize="14" />
-                        <Button Text="Edit" Command="{Binding EditCommand}" />
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="15" BackgroundColor="MidnightBlue" Margin="5">
+            
+            <!-- Profile Section -->
+            <Frame BackgroundColor="Teal" CornerRadius="10" Padding="10">
+                <HorizontalStackLayout Spacing="10">
+                    <Image Source="{Binding Bio.ProfilePicture}" HeightRequest="100" WidthRequest="100" />
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Bio.Name}" FontSize="Title" FontAttributes="Bold" />
+                        <Label Text="{Binding Bio.Age}" FontSize="16" />
                     </VerticalStackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Bio Section -->
+            <Frame Padding="15" Margin="10" CornerRadius="10">
+                <Frame.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="DarkSlateGray" Offset="0.0" />
+                        <GradientStop Color="Teal" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <Label Text="{Binding Bio.Bio}" 
+                    FontSize="14" 
+                    LineBreakMode="WordWrap" 
+                    HorizontalOptions="FillAndExpand" 
+                    TextColor="White" />
+            </Frame>
+
+            <!-- Actions Section -->
+            <Button Text="Edit" Command="{Binding Bio.EditCommand}" BackgroundColor="LightBlue" TextColor="Black" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
