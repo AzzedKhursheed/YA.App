@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:YA.App.Resources.Converters"
              xmlns:vm="clr-namespace:YA.App.ViewModels"
              x:Class="YA.App.Pages.YusufHomePage"
              Title="YusufHomePage">
@@ -8,6 +9,13 @@
     <ContentPage.BindingContext>
         <vm:YusufHomePageViewModel />
     </ContentPage.BindingContext>
+
+    <!-- Declare the resources for the page -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBoolConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ScrollView>
         <VerticalStackLayout Padding="10" Spacing="15" BackgroundColor="MidnightBlue" Margin="5">
@@ -31,11 +39,36 @@
                         <GradientStop Color="Teal" Offset="1.0" />
                     </LinearGradientBrush>
                 </Frame.Background>
-                <Label Text="{Binding Bio.Bio}" 
-                    FontSize="14" 
-                    LineBreakMode="WordWrap" 
-                    HorizontalOptions="FillAndExpand" 
-                    TextColor="White" />
+                <!-- Bio Display or Editor -->
+                <ContentView>
+                    <ContentView.Resources>
+                        <Style TargetType="Editor">
+                            <Setter Property="FontSize" Value="14"/>
+                            <Setter Property="TextColor" Value="White"/>
+                            <Setter Property="BackgroundColor" Value="Transparent"/>
+                        </Style>
+                        <ResourceDictionary>
+                        </ResourceDictionary>
+                    </ContentView.Resources>
+
+                    <Grid>
+                        <!-- Viewing Mode -->
+                        <Label Text="{Binding Bio.Bio}"
+                           IsVisible="{Binding Bio.IsEditing, Converter={StaticResource InverseBoolConverter}}"
+                           FontSize="14"
+                           LineBreakMode="WordWrap"
+                           HorizontalOptions="FillAndExpand"
+                           TextColor="White" /> 
+
+                        <!-- Editing Mode -->
+                        <Editor Text="{Binding Bio.Bio}"
+                            IsVisible="{Binding Bio.IsEditing}"
+                            AutoSize="TextChanges"
+                            BackgroundColor="DarkViolet"
+                            HorizontalOptions="FillAndExpand"
+                            TextColor="White" />    
+                    </Grid>
+                </ContentView>
             </Frame>
 
             <!-- Actions Section -->

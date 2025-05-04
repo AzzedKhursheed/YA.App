@@ -20,7 +20,10 @@ namespace YA.App.ViewModels
                 Age = 26,
                 Bio = "To be, or not to be: that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take arms against a sea of troubles And by opposing end them. To die—to sleep, No more; and by a sleep to say we end The heart-ache and the thousand natural shocks That flesh is heir to: 'tis a consummation Devoutly to be wish'd. To die, to sleep; To sleep, perchance to dream—ay, there's the rub: For in that sleep of death what dreams may come When we have shuffled off this mortal coil, Must give us pause—there's the respect That makes calamity of so long life.",
                 ProfilePicture = "dotnet_bot.png",
-                EditCommand = new AsyncCommand(async () => await NavigateAsync("You tapped Edit"))
+                //IsEditing = true, // force visible Editor
+                EditCommand = new AsyncCommand(ToggleEditAsync),
+                
+
             };
         }
         #endregion
@@ -31,6 +34,22 @@ namespace YA.App.ViewModels
         {
             await AppShell.DisplayToastAsync(message);
         }
+
+        private async Task ToggleEditAsync()
+        {
+            Console.WriteLine($"Toggling IsEditing. Current value: {Bio.IsEditing}");
+            Bio.IsEditing = !Bio.IsEditing;
+
+            // Log if the value is toggling
+            Console.WriteLine($"New IsEditing value: {Bio.IsEditing}");
+            OnPropertyChanged(nameof(Bio));
+
+            if (!Bio.IsEditing)
+            {
+                await AppShell.DisplayToastAsync("Bio saved");
+            }
+        }
+
         #endregion
 
         #region properties
