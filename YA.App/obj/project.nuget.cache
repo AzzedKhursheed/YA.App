@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GTHdgMT8OPo=",
+  "dgSpecHash": "2T7uiBSatu0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\YA.App.csproj",
+  "projectFilePath": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\butty\\.nuget\\packages\\asyncawaitbestpractices\\9.0.0\\asyncawaitbestpractices.9.0.0.nupkg.sha512",
     "C:\\Users\\butty\\.nuget\\packages\\asyncawaitbestpractices.mvvm\\9.0.0\\asyncawaitbestpractices.mvvm.9.0.0.nupkg.sha512",

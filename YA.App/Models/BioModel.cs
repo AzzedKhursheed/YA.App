@@ -39,6 +39,15 @@ namespace YA.App.Models
             set { this.SetProperty(ref editCommand_Ref, value); }
         }
 
+        public bool IsEditing
+        {
+            get => this.GetProperty(ref isEditing_Ref);
+            set => this.SetProperty(ref isEditing_Ref, value);
+        }
+
+        
+
+
         #endregion
 
         #region Variables
@@ -48,6 +57,7 @@ namespace YA.App.Models
         private string bio_Ref;
         private string profilePicture_Ref;
         private ICommand editCommand_Ref;
+        private bool isEditing_Ref;
 
         #endregion
     }

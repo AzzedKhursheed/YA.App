@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\YA.App.csproj": {}
+    "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\YA.App.csproj": {
+    "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\YA.App.csproj",
+        "projectUniqueName": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
         "projectName": "YA.App",
-        "projectPath": "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\YA.App.csproj",
+        "projectPath": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
         "packagesPath": "C:\\Users\\butty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\butty\\Source\\Repos\\YA.App\\YA.App\\obj\\",
+        "outputPath": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
