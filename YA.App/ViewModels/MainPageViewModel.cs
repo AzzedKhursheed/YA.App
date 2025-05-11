@@ -36,7 +36,8 @@ namespace YA.App.ViewModels
                 {
                     Icon = "dotnet_bot.png",
                     Title = "Huzaifa's Page",
-                    Command = new AsyncCommand(async () => await NavigateAsync("You tapped Profile"))
+                    Command = new AsyncCommand(async () => await Shell.Current.GoToAsync(nameof(HuzaifaHomePage)))
+
                 },
                 new TileModel
                 {

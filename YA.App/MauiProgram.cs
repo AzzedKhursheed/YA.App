@@ -54,7 +54,10 @@ namespace YA.App
 
             // Register the MainPage and its ViewModel using a helper extension method.
             // This tells Shell to use DI to create the page and ViewModel when navigating to "MainPage".
-            builder.Services.AddTransientWithShellRoute<MainPage, MainPageViewModel>("MainPage");
+            builder.Services.AddTransientWithShellRoute<MainPage, MainPageViewModel>("MainPage"); // Register the MainPageViewModel for dependency injection
+            builder.Services.AddTransientWithShellRoute<HuzaifaHomePage, HuzaifaHomePageViewModel>("HuzaifaHomePage"); 
+
+
             builder.Services.AddTransient<YusufHomePageViewModel>();
             builder.Services.AddTransient<YusufHomePage>();
 
