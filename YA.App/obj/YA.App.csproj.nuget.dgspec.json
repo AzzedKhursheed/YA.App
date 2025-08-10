@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj": {}
+    "C:\\Users\\butty\\source\\repos\\AzzedKhursheed\\YA.App\\YA.App\\YA.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj": {
+    "C:\\Users\\butty\\source\\repos\\AzzedKhursheed\\YA.App\\YA.App\\YA.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
+        "projectUniqueName": "C:\\Users\\butty\\source\\repos\\AzzedKhursheed\\YA.App\\YA.App\\YA.App.csproj",
         "projectName": "YA.App",
-        "projectPath": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\YA.App.csproj",
+        "projectPath": "C:\\Users\\butty\\source\\repos\\AzzedKhursheed\\YA.App\\YA.App\\YA.App.csproj",
         "packagesPath": "C:\\Users\\butty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\butty\\source\\repos\\YA.App\\YA.App\\obj\\",
+        "outputPath": "C:\\Users\\butty\\source\\repos\\AzzedKhursheed\\YA.App\\YA.App\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -29,7 +29,6 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -98,7 +97,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.14, )",
+              "version": "[8.0.15, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -155,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
@@ -191,7 +190,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.14, )",
+              "version": "[8.0.15, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -236,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
@@ -272,7 +271,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.14, )",
+              "version": "[8.0.15, )",
               "autoReferenced": true
             },
             "SQLitePCLRaw.bundle_green": {
@@ -318,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -389,7 +388,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -22,8 +22,7 @@ namespace YA.App.ViewModels
                 ProfilePicture = "dotnet_bot.png",
                 //IsEditing = true, // force visible Editor
                 EditCommand = new AsyncCommand(ToggleEditAsync),
-                
-
+                ShowImagePopupCommand = new AsyncCommand(ToggleImagePopupAsync)
             };
         }
         #endregion
@@ -48,6 +47,12 @@ namespace YA.App.ViewModels
             {
                 await AppShell.DisplayToastAsync("Bio saved");
             }
+        }
+
+        private async Task ToggleImagePopupAsync()
+        {
+            Bio.IsImagePopupVisible = !Bio.IsImagePopupVisible;
+            OnPropertyChanged(nameof(Bio));
         }
 
         #endregion
