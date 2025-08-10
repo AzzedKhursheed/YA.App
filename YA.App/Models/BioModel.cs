@@ -45,8 +45,17 @@ namespace YA.App.Models
             set => this.SetProperty(ref isEditing_Ref, value);
         }
 
-        
+        public ICommand ShowImagePopupCommand
+        {
+            get { return this.GetProperty(ref showImagePopupCommand_Ref); }
+            set { this.SetProperty(ref showImagePopupCommand_Ref, value); }
+        }
 
+        public bool IsImagePopupVisible
+        {
+            get => this.GetProperty(ref isImagePopupVisible_Ref);
+            set => this.SetProperty(ref isImagePopupVisible_Ref, value);
+        }
 
         #endregion
 
@@ -58,6 +67,8 @@ namespace YA.App.Models
         private string profilePicture_Ref;
         private ICommand editCommand_Ref;
         private bool isEditing_Ref;
+        private ICommand showImagePopupCommand_Ref;
+        private bool isImagePopupVisible_Ref;
 
         #endregion
     }
